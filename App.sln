@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{5E38B506-9DDB-4D6C-B4D5-16B8423577D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{23509208-95A0-4225-83CB-A4899BABF61E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D0AA63C7-D7A5-4903-9002-0E6DDE5EC676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesAccess", "BussinesAccess\BussinesAccess.csproj", "{1F673811-229E-40E4-B827-818A393CDF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Context", "Context\Context.csproj", "{351DDC6D-3014-42AA-B442-6594E9AE0F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{4DB641A4-7A4C-420C-833F-FB18DF6BB300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3CC54527-C502-4D4C-AA90-E0A6CABF5F16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Any CPU = Azure|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E38B506-9DDB-4D6C-B4D5-16B8423577D4}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{5E38B506-9DDB-4D6C-B4D5-16B8423577D4}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{5E38B506-9DDB-4D6C-B4D5-16B8423577D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E38B506-9DDB-4D6C-B4D5-16B8423577D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E38B506-9DDB-4D6C-B4D5-16B8423577D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E38B506-9DDB-4D6C-B4D5-16B8423577D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F673811-229E-40E4-B827-818A393CDF70}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{1F673811-229E-40E4-B827-818A393CDF70}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{1F673811-229E-40E4-B827-818A393CDF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F673811-229E-40E4-B827-818A393CDF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F673811-229E-40E4-B827-818A393CDF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F673811-229E-40E4-B827-818A393CDF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351DDC6D-3014-42AA-B442-6594E9AE0F1F}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{351DDC6D-3014-42AA-B442-6594E9AE0F1F}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{351DDC6D-3014-42AA-B442-6594E9AE0F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351DDC6D-3014-42AA-B442-6594E9AE0F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351DDC6D-3014-42AA-B442-6594E9AE0F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351DDC6D-3014-42AA-B442-6594E9AE0F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB641A4-7A4C-420C-833F-FB18DF6BB300}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{4DB641A4-7A4C-420C-833F-FB18DF6BB300}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{4DB641A4-7A4C-420C-833F-FB18DF6BB300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB641A4-7A4C-420C-833F-FB18DF6BB300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB641A4-7A4C-420C-833F-FB18DF6BB300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB641A4-7A4C-420C-833F-FB18DF6BB300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC54527-C502-4D4C-AA90-E0A6CABF5F16}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC54527-C502-4D4C-AA90-E0A6CABF5F16}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{3CC54527-C502-4D4C-AA90-E0A6CABF5F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC54527-C502-4D4C-AA90-E0A6CABF5F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC54527-C502-4D4C-AA90-E0A6CABF5F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC54527-C502-4D4C-AA90-E0A6CABF5F16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F673811-229E-40E4-B827-818A393CDF70} = {23509208-95A0-4225-83CB-A4899BABF61E}
+		{351DDC6D-3014-42AA-B442-6594E9AE0F1F} = {23509208-95A0-4225-83CB-A4899BABF61E}
+		{4DB641A4-7A4C-420C-833F-FB18DF6BB300} = {23509208-95A0-4225-83CB-A4899BABF61E}
+		{3CC54527-C502-4D4C-AA90-E0A6CABF5F16} = {D0AA63C7-D7A5-4903-9002-0E6DDE5EC676}
+	EndGlobalSection
+EndGlobal
